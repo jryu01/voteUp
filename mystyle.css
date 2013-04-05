@@ -1,0 +1,142 @@
+#header {
+    padding: 0px, 0px, 20px, 100px;
+    background-color: #ffffff;
+
+}
+#addTopic {
+    background-color: #EBE8D8;
+    border: 5px solid #EBE8D8;
+    margin-left: -10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+#contents {
+    min-height: 800px;
+}
+#footer {
+    background-color: #1D1E1A;
+    border: 5px solid #1D1E1A;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    padding-left: 10px;
+    padding-bottom: 90px;
+    width: 100%;
+}
+h1, h2, h3, h4 {
+   color: #3F4944; 
+   font-family: Helvetica,Arial,sans-serif;
+}
+ul {
+    list-style-type: none; 
+}
+.replyItem {
+    padding-left: 30px;
+}
+.topicContent {
+    background-color: #DBC8B1;
+    border-radius: 10px;
+    border: 5px solid #DBC8B1;
+    width: 97.5%;
+    display: block;
+    margin-top:5px;
+}
+.replyContent {
+    background-color: #F0F0E4;
+    border-radius: 10px;
+    border: 5px solid #F0F0E4;
+    width: 97.5%;
+    display: block;
+    margin-top:5px;
+}
+.textContent {
+    display: inline-block;
+    width: 97.5%;
+}
+.topicText {
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    font-family: verdana;
+    font-weight: bold;
+}
+.replyText {
+    display: block;
+    padding-left: 10px;
+    font-family: verdana;
+}
+.replyForm {
+    position: relative;
+    margin-left: 40px;
+}
+#topicForm {
+    display: none;
+}
+.button {
+    cursor:pointer;
+    display: inline-block;
+    height:20px;
+    width: 100px;
+    background-color: #cc0000;
+    font-family:arial;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin-top:2px;
+    opacity: 0.7;
+}
+.voteNum {
+    display: inline-block;
+    height:20px;
+    background-color: brown;
+    font-family:arial;
+    font-weight:bold;
+    color: #ffffff;
+    margin-top:2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+.button:hover {
+    opacity: 1;    
+}
+.voteNum {
+    display: inline-block;
+    font-family:arial;
+    font-weight:bold; 
+    padding-left: 5px; 
+    text-align: center;
+}
+.topicLink {
+    display: inline-block;
+    font-family:arial;
+    font-weight:bold; 
+    padding-left: 5px; 
+    text-align: center;
+}
+.topicLink span {
+    background-color: brown;
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #ffffff;
+
+}
+.topicLink a {
+    position: relative;
+    height: 20px;
+    border-radius: 5px;
+    text-align:center;
+    margin-top:2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family:arial;
+    font-weight:bold;
+    color:#2D7DCC;
+    text-decoration: none;
+}
+.topicLink a:hover {
+    text-decoration: underline;
+}

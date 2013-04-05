@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" type="text/css" href="mystyle.css"/>
+        <script src='jquery-1.9.1.min.js' type="text/javascript"></script>
+        <script src="script.js" type="text/javascript"></script>
+		<title>Vote Up - Vote your favorite comments!</title>
+	</head>
+    <body>
+        <header id='header'><h1>Vote Up</h1></header>
+        <div id='addTopic'>
+            <h2 style='font-family: Helvetica Neue'>Post Your Topic</h2>
+            <div id='postTopicButton' class='postTopicButton button'>New Topic</div>
+            <div id='refreshTopicButton' class='postTopicButton button'>Refresh</div>
+            <div id='topicForm'>
+                <textarea placeholder="Add Link" name='link' rows="1" cols="60"></textarea>
+                <br>
+                <textarea placeholder="Add Topic" name='topic' rows="3" cols="60"></textarea>
+                <br>
+                <div id="postTopic" class='button'>Post</div>
+                <div id="cancelpostTopic" class='button'>Cancel</div>
+            </div>
+        </div>
+        <div id='contents'>
+            <ul id='topicList'>
+            </ul>
+        </div>
+        <div id='footer'></div>
+    </body>
+</html>
